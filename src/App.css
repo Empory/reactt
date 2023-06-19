@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.avatar{
+  border-radius: 50%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -23,9 +25,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+li{
+  list-style: none;
+  
+}
 .App-link {
   color: #61dafb;
+}
+.type{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 @keyframes App-logo-spin {
